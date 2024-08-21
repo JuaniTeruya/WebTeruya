@@ -1,0 +1,270 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #d1faff;
+  color: white;
+  font-size: 1rem;
+  font-family: "Alata", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("../championsimg/fondochampions.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #190448;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.ganadores-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+
+.ganadores-item {
+  background-color: #cde6f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 50%;
+  padding: 20px;
+}
+
+.ganadores-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.ganadores-item h2 {
+  color: #142167;
+  font-size: 1.5rem;
+}
+
+.ganadores-item li {
+  font-size: 1rem;
+  color: #555;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a,
+.champ a,
+.europaleague a,
+.eurocopa a {
+  display: flex;
+  align-items: center;
+}
+
+.uefa,
+.champions,
+.europaleague-img,
+.eurocopa-img {
+  width: 15%;
+}
+
+main {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.lineup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lineup-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.player {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  width: 180px;
+}
+
+.player img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.player-info {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.player:hover img {
+  filter: brightness(50%);
+}
+
+.player:hover .player-info {
+  display: block;
+}
+
+.futer {
+  width: 100%;
+  background-color: #0d4f83;
+  padding: 2% 0;
+}
+
+.futer .logos {
+  text-align: center;
+}
+
+.social-logo {
+  width: 5%;
+  margin: 0 1%;
+}
+
+.integrantes {
+  text-align: center;
+}
+
+
+@media (max-width: 1600px) {
+
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 25%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 30%;
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .player {
+    width: 100%; 
+    margin: 10px auto; 
+  }
+
+  body {
+    font-size: 0.8rem;
+  }
+  
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 35%;
+  }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .noticias{
+    width: 120%;
+  }
+
+  header, .container {
+    padding: 1% 0;
+  }
+
+  .player {
+    width: 120%; 
+    margin: 10px auto; 
+  }
+
+  .player img {
+    width: 100%; 
+  }
+
+  
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 60%;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .noticias{
+    width: 120%;
+  }
+
+  header, .container {
+    padding: 5% 0;
+  }
+
+  .player {
+    width: 80%; 
+    margin: 10px auto; 
+  }
+
+  .player img {
+    width: 100%; 
+  }
+
+  .lineup-row {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+
+  .uefa, .champions, .europaleague-img, .eurocopa-img {
+    width: 75%; 
+  }
+}

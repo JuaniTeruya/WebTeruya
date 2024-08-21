@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #d1faff;
+  color: white;
+  font-size: 1rem;
+  font-family: "Alata", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #142167;
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.uefa,
+.champions,
+.europaleague-img,
+.eurocopa-img {
+  width: 15%; 
+}
+
+.madrid {
+  margin-top: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.texto1 {
+  text-align: center;
+  display: block;
+  margin: 5%;
+  padding: 2%;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: #142167;
+}
+
+.noticias {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 2% 0;
+  text-align: center;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+
+.noticias-item {
+  background-color: #cde6f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  width: 30%;
+  padding: 20px;
+}
+
+.noticias-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.noticias-item h3 {
+  color: #142167;
+  font-size: 1.5rem;
+}
+
+.noticias-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.futer {
+  width: 100%;
+  background-color: #0d4f83;
+  padding: 2% 0; 
+}
+
+.futer .logos {
+  text-align: center;
+}
+
+.social-logo {
+  width: 5%;
+  margin: 0 1%;
+}
+
+.integrantes {
+  text-align: center;
+}
+
+.uefa,
+.champions,
+.europaleague-img,
+.eurocopa-img {
+  width: 25%;
+}
+
+
+@media (max-width: 1600px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 25%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 35%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 75%;
+  }
+}
+

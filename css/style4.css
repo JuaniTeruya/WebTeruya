@@ -1,0 +1,359 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #d1faff;
+  color: white;
+  font-size: 1rem;
+  font-family: "Alata", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #142167;
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.uefa,
+.champions,
+.europaleague-img,
+.eurocopa-img {
+  width: 15%; 
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #0d4f83;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.eurocopa-banner {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.details,
+.teams {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #142167;
+  border-radius: 10px;
+}
+
+.details h2,
+.teams h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details p,
+.teams ul {
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.teams ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.teams li {
+  margin-bottom: 5px;
+}
+
+.mejores-jugadores {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #142167;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mejores-jugadores h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #d1faff;
+}
+
+.carta-del {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #04862b;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carta-del img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta-del h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.carta-del:hover .info {
+  display: block;
+}
+
+
+.carta-medio {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #c81804;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carta-medio img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta-medio h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.carta-medio:hover .info {
+  display: block;
+}
+
+
+
+.carta-defen {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #6e0b75;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carta-defen img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta-defen h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.carta-defen:hover .info {
+  display: block;
+}
+
+.carta-dt {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carta-dt img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta-dt h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.carta-dt:hover .info {
+  display: block;
+}
+
+
+
+.carta {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #0d4f83;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carta img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carta h3 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  color: #d1faff;
+}
+
+.carta:hover .info {
+  display: block;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.player-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.futer {
+  width: 100%;
+  background-color: #0d4f83;
+  padding: 2% 0; 
+}
+
+.futer .logos {
+  text-align: center;
+}
+
+.social-logo {
+  width: 5%;
+  margin: 0 1%;
+}
+
+.integrantes {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  background-color: #142167;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bandera{
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 480px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 75%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .uefa,
+  .champions,
+  .europaleague-img,
+  .eurocopa-img {
+    width: 25%;
+  }
+}
